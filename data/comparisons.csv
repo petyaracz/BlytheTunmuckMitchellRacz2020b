@@ -1,0 +1,85 @@
+relation,relation.type
+FZD,cross-cousin
+MBD,cross-cousin
+MBS,cross-cousin
+FZ,diff-sex parent's sibling
+MB,diff-sex parent's sibling
+FBD > FD > Z,parallel-cousin
+MZD > MD > Z,parallel-cousin
+M,parent
+F,parent
+B,sibling
+Z,sibling
+FB > F,same-sex parent's sibling
+FFB > FF,
+FM,
+FMZSD > FMSD > FBD > FD > Z,parallel-cousin
+FMZDS > FMDS > FZS,
+FMBS,
+FMZ > FM,
+MF,
+MMBD,
+MMBDS,cross-cousin
+FZH > MB,
+FMBDS,
+FMZS > FMS > FB > F,
+MMBS,
+FBW > FW > M,
+FMZD > FMD > FZ,
+FMZSW > FMSW > FBW>FW > M,
+FMZS >FMS > FB > F,
+MZS > MS > B,
+FZDS,
+MM,
+MFZ,
+MFBS > MFS > MB,
+MFZHB > MFZH > MMB,
+MFZSS,
+FFZH > FMB,
+FMBDS and MFBS > MFS > MB,
+MMB,
+MFZSD,cross-cousin
+MFBD > MFD > MZ > M,
+FFZS,
+FFBS > FFS > FB > F,
+MFBDS > MFDS > MZS > MS > B,parallel-cousin
+MFBW > MFW > MM,
+MZ > M,same-sex parent's sibling
+MFZS yile 2,
+FFZD  kale 2,
+FF,
+MZDHB > MDHB > ZHB > ZH,
+FMFWD > FMMD > FMZ > FM,
+FFBSS > FFSS > FBS > FS > B,parallel-cousin
+FMBD,
+MZDS > MDS > ZS,
+MZDH > MDH > ZH,
+MZH > MH > F,
+MZDHF > MDHF > ZHF,
+MZDHZ > MDHZ > ZHZ,
+FMZSS > FMSS > FBS > FS > B,parallel-cousin
+MMZ > MM,
+FMZDD > FMDD > FZD,
+FFZ,
+MMM,
+FMZH > FMH > FF,
+FBS > FS > B,
+MBW > FZ,
+MMZS > MMS > MB,
+MMZDS > MMDS > MZS> MS > B,parallel-cousin
+MMZD > MMD > MZ > M,
+MFB > MF,
+MFZD,
+MMBDD,cross-cousin
+FMB,
+FMBW > FFZ,
+FMBDD,cross-cousin
+MZS > MD > Z,
+MMZDD > MMDD > MZD > MD > Z,parallel-cousin
+MMZSS > MMSS > MBS,
+FFBW > FFW > FM,
+MMZH > MMH > MF,
+MZD>MD>Z,parallel-cousin
+FW > M,
+MFFZ,
+"FFZH > FMB, MFFB",

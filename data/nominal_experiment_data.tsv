@@ -1,0 +1,689 @@
+Identifier	Participant ID	count	Age.Band	Gender	keep	Expected Kinterm	Compositional Analysis	Which term was provided?	Reciprocal relationship	Task	correct_comp	correct_prod	correct	Referent_ID	Term	Task2	Kin.distance	Genealogical.distance	Half.sibling.merger	Same.sex.sibling.merger	Step.kin.merger	Task_name	Task_name2	Task_name3	Same-sex Sib Merger
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 1	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 3	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 4	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	mangka	2	*	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	munak 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pugarli	3 + 1S+1H	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kaka 2	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kaka 1	2	kaka	NA	1	TRUE	TRUE	TRUE	Referent 12	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	thamuny 1M	2	*	NA	1	TRUE	TRUE	TRUE	Referent 14	MF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pipi 2	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 15	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pipi 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 16	MMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	nangkun	5	ngathan	NA	1	FALSE	FALSE	FALSE	Referent 17	MMBDS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kaka 1 by marriage	2 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 18	FZH > MB	1	2	3	0	0	1	comprehension	apposite	comprehension	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	ngathan 2	5	ngathan	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	yile 1	1 + 2S+1H	yile	NA	2	NA	TRUE	TRUE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	yile 2	4	pugarli	NA	2	NA	FALSE	FALSE	Referent 21	MMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	kale 1 by marriage	1 + 1S+1M	?pipi/?mama	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	NA	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	munak 1	1	munak	NA	3	NA	TRUE	TRUE	Referent 1	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	wakal/newuy	2	wakal	NA	3	NA	TRUE	TRUE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H+1M	wakal	NA	3	NA	TRUE	TRUE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	mangka	2 + 1S	mangka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 20	Participant 1	1	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H	wakal	NA	3	NA	TRUE	TRUE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 29	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 30	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	pipi	2	*	NA	1	TRUE	TRUE	TRUE	Referent 31	FZ	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S	pule	NA	1	TRUE	TRUE	TRUE	Referent 32	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	wakal, muluk, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 33	FZDS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	nangkun	5	nangkun	NA	1	TRUE	TRUE	TRUE	Referent 34	MMBDS	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kawu	2	kawu	NA	1	TRUE	TRUE	TRUE	Referent 35	MM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 7	MFZ	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	pipi, nginarr	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 36	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kaka 1	2 + 1S+1H	kaka	NA	1	TRUE	TRUE	TRUE	Referent 37	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kawu by marriage	3 + 1S + 1M	kakurl	NA	1	TRUE	TRUE	TRUE	Referent 6	MFZHB > MFZH > MMB	1	3	5	0	1	1	comprehension	inapposite	comprehension	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	yile	1 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 38	FMZS > FMS > FB > F	1	1	4	1	2	0	comprehension	apposite	comprehension	2
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	ngathan 2	5	*	NA	1	TRUE	TRUE	TRUE	Referent 39	MFZSS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	mangka	2 + 1S	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 40	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	thamuny by marriage	3 + 1M	thamuny	NA	1	TRUE	TRUE	TRUE	Referent 41	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	ngathan 2 and kaka	5 and 2 + 2S	ngathan	NA	1	TRUE	TRUE	TRUE	Referent 42	FMBDS and MFBS > MFS > MB	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kawu	4	*	NA	1	TRUE	TRUE	TRUE	Referent 43	MMB	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	munak 2	5	munak	NA	1	TRUE	TRUE	TRUE	Referent 5	MFZSD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kale 1	1 + 2S+1H	kale	NA	2	FALSE	TRUE	TRUE	Referent 44	MFBD > MFD > MZ > M	2	1	4	1	2	0	production	inapposite	production	2
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kaka 2	4	nginarr	NA	2	FALSE	FALSE	FALSE	Referent 45	FFZS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	yile 1	1 + 2S+1H	derdi?	NA	2	FALSE	TRUE	TRUE	Referent 46	FFBS > FFS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S+2H	pugarli	1	2	FALSE	FALSE	FALSE	Referent 47	MFBDS > MFDS > MZS > MS > B	2	1	5	2	2	0	production	inapposite	production	2
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kawu by marriage	2 + 1S + 1M	kawu	NA	2	FALSE	TRUE	TRUE	Referent 48	MFBW > MFW > MM	2	2	4	0	1	1	production	inapposite	production	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	kaka 2	4	nginarr	NA	2	FALSE	FALSE	FALSE	Referent 49	FMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	wakal	1 + 1S	wakal	0	3	FALSE	TRUE	TRUE	Referent 50	MZ > M	3	1	2	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	wakal, muluk, nginarr	4	nginarr	1	3	FALSE	TRUE	TRUE	Referent 51	MFZS yile 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 18	Participant 2	2	C 10;7_13;3	M	TRUE	wakal, muluk	4	nginarr	0	3	FALSE	FALSE	FALSE	Referent 53	FFZD  kale 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 54	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 30	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	ngathan 1	1 + 2S	paba	NA	1	TRUE	TRUE	TRUE	Referent 32	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	wakal, muluk, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 33	FZDS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	nangkun	5	nangkun	NA	1	TRUE	TRUE	TRUE	Referent 34	MMBDS	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kawu	2	kawu	NA	1	TRUE	TRUE	TRUE	Referent 35	MM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 7	MFZ	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	pipi, nginarr	4	*	NA	1	FALSE	FALSE	FALSE	Referent 36	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kaka 1	2 + 1S+1H	kaka	NA	1	TRUE	TRUE	TRUE	Referent 37	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kawu by marriage	3 + 1S + 1M	kakurl	NA	1	TRUE	TRUE	TRUE	Referent 6	MFZHB > MFZH > MMB	1	3	5	0	1	1	comprehension	inapposite	comprehension	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	yile	1 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 38	FMZS > FMS > FB > F	1	1	4	1	2	0	comprehension	apposite	comprehension	2
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	ngathan 2	5	*	NA	1	TRUE	TRUE	TRUE	Referent 39	MFZSS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	mangka	2 + 1S	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 40	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	thamuny by marriage	3 + 1M	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 41	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	ngathan 2 and kaka	5	paba	NA	1	TRUE	TRUE	TRUE	Referent 42	FMBDS and MFBS > MFS > MB	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kawu	4	*	NA	1	TRUE	TRUE	TRUE	Referent 43	MMB	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	munak 2	5	munak	NA	1	TRUE	TRUE	TRUE	Referent 5	MFZSD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kale 1	1 + 2S+1H	mama	NA	2	NA	TRUE	TRUE	Referent 44	MFBD > MFD > MZ > M	2	1	4	1	2	0	production	inapposite	production	2
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kaka 2	4	dedi	NA	2	NA	FALSE	FALSE	Referent 45	FFZS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	yile	1 + 2S+1H	yile	NA	2	NA	TRUE	TRUE	Referent 46	FFBS > FFS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	ngathan 1	1 + 2S+2H	kaka	1	2	NA	FALSE	FALSE	Referent 47	MFBDS > MFDS > MZS > MS > B	2	1	5	2	2	0	production	inapposite	production	2
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kawu by marriage	2 + 1S + 1M	kawu	NA	2	NA	TRUE	TRUE	Referent 48	MFBW > MFW > MM	2	2	4	0	1	1	production	inapposite	production	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	kaka 2	4	?arluk	NA	2	NA	FALSE	FALSE	Referent 49	FMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	wakal	1 + 1S	wakal	NA	3	NA	TRUE	TRUE	Referent 50	MZ > M	3	1	2	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	wakal, muluk, nginarr	4	nginarr	1	3	NA	TRUE	TRUE	Referent 51	MFZS yile 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 12	Participant 3	3	B 7;10_10;6	M	TRUE	wakal, muluk	4	pipi	NA	3	NA	FALSE	FALSE	Referent 53	FFZD  kale 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 54	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 30	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	pipi	2	*	NA	1	TRUE	TRUE	TRUE	Referent 31	FZ	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	ngathan 1	1 + 2S	paba	NA	1	TRUE	TRUE	TRUE	Referent 32	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	wakal, muluk, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 33	FZDS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	nangkun	5	nangkun	NA	1	TRUE	TRUE	TRUE	Referent 34	MMBDS	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kawu	2	*	NA	1	FALSE	FALSE	FALSE	Referent 35	MM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 7	MFZ	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	pipi, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 36	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kaka 1	2 + 1S+1H	*	NA	1	FALSE	FALSE	FALSE	Referent 37	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kawu by marriage	3 + 1S + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 6	MFZHB > MFZH > MMB	1	3	5	0	1	1	comprehension	inapposite	comprehension	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	yile	1 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 38	FMZS > FMS > FB > F	1	1	4	1	2	0	comprehension	apposite	comprehension	2
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	ngathan 2	5	*	NA	1	TRUE	TRUE	TRUE	Referent 39	MFZSS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 40	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	thamuny by marriage	3 + 1M	tyabutj	NA	1	TRUE	TRUE	TRUE	Referent 41	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kawu	4	*	NA	1	TRUE	TRUE	TRUE	Referent 43	MMB	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	munak 2	5	*	NA	1	FALSE	FALSE	FALSE	Referent 5	MFZSD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kale 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 44	MFBD > MFD > MZ > M	2	1	4	1	2	0	production	inapposite	production	2
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kaka 2	4	arluk	NA	2	NA	FALSE	FALSE	Referent 45	FFZS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	yile	1 + 2S+1H	kaka	NA	2	NA	FALSE	FALSE	Referent 46	FFBS > FFS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	ngathan 1	1 + 2S+2H	pule	1	2	NA	TRUE	TRUE	Referent 47	MFBDS > MFDS > MZS > MS > B	2	1	5	2	2	0	production	inapposite	production	2
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kawu by marriage	2 + 1S + 1M	kawu	NA	2	NA	TRUE	TRUE	Referent 48	MFBW > MFW > MM	2	2	4	0	1	1	production	inapposite	production	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	kaka 2	4	agurluk	NA	2	NA	FALSE	FALSE	Referent 49	FMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	wakal	1 + 1S	*	NA	3	NA	FALSE	FALSE	Referent 50	MZ > M	3	1	2	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	wakal, muluk, nginarr	4	nginarr	1	3	NA	TRUE	TRUE	Referent 51	MFZS yile 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 23	Participant 4	4	A 5_7;9	M	TRUE	wakal, muluk	4	*	NA	3	NA	FALSE	FALSE	Referent 53	FFZD  kale 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 29	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 30	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	pipi	2	*	NA	1	TRUE	TRUE	TRUE	Referent 31	FZ	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 32	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	wakal, muluk, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 33	FZDS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	nangkun	5	*	NA	1	TRUE	TRUE	TRUE	Referent 34	MMBDS	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kawu	2	*	NA	1	TRUE	TRUE	TRUE	Referent 35	MM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 7	MFZ	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	pipi, nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 36	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kaka 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 37	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kawu by marriage	3 + 1S + 1M	kakul	NA	1	TRUE	TRUE	TRUE	Referent 6	MFZHB > MFZH > MMB	1	3	5	0	1	1	comprehension	inapposite	comprehension	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	yile	1 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 38	FMZS > FMS > FB > F	1	1	4	1	2	0	comprehension	apposite	comprehension	2
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	ngathan 2	5	*	NA	1	TRUE	TRUE	TRUE	Referent 39	MFZSS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	mangka	2 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 40	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	thamuny by marriage	3 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 41	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	ngathan 2 and kaka	2 + 1S+1H	kaka	NA	1	TRUE	TRUE	TRUE	Referent 42	FMBDS and MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kawu	4	*	NA	1	TRUE	TRUE	TRUE	Referent 43	MMB	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	munak 2	5	mumak	NA	1	TRUE	TRUE	TRUE	Referent 5	MFZSD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kale 1	1 + 2S+1H	kale	NA	2	NA	TRUE	TRUE	Referent 44	MFBD > MFD > MZ > M	2	1	4	1	2	0	production	inapposite	production	2
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kaka 2	4	ngawurluk	NA	2	NA	FALSE	FALSE	Referent 45	FFZS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	yile	1 + 2S+1H	nginarr	NA	2	NA	FALSE	FALSE	Referent 46	FFBS > FFS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kawu by marriage	2 + 1S + 1M	kawu	NA	2	NA	TRUE	TRUE	Referent 48	MFBW > MFW > MM	2	2	4	0	1	1	production	inapposite	production	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	kaka 2	4	ngawurluk	NA	2	NA	FALSE	FALSE	Referent 49	FMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	wakal	1 + 1S	mama	NA	3	NA	FALSE	FALSE	Referent 50	MZ > M	3	1	2	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	wakal, muluk, nginarr	4	nginarr	1	3	NA	TRUE	TRUE	Referent 51	MFZS yile 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 15	Participant 5	5	C 10;7_13;3	M	TRUE	wakal, muluk	4	nginarr	NA	3	NA	FALSE	FALSE	Referent 53	FFZD  kale 2	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 55	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 56	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 57	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	munak 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 58	MZD > MD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	ngathan 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kangkurl	2	*	NA	1	TRUE	TRUE	TRUE	Referent 60	FF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	pipi 2	2	*	NA	1	TRUE	TRUE	TRUE	Referent 61	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kaka 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 62	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 63	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	pugarli	3	*	NA	1	TRUE	TRUE	TRUE	Referent 64	MBD	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kaka 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 65	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 66	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	nangkun	2 + 2S+1H	*	NA	1	FALSE	FALSE	FALSE	Referent 67	MZDHB > MDHB > ZHB > ZH	1	2	5	1	2	0	comprehension	inapposite	comprehension	2
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	mangka by marriage	2 + 1S + 1H + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 35	FMFWD > FMMD > FMZ > FM	1	2	5	1	1	1	comprehension	inapposite	comprehension	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 46	FFBSS > FFSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	pipi	4	*	NA	1	FALSE	FALSE	FALSE	Referent 52	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 68	MMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	wakal	1 + 3S	kaka	NA	2	NA	FALSE	FALSE	Referent 71	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 72	MBS	2	3	3	0	0	0	production	inapposite	production	0
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	wakal	1 + 3S	kaka	NA	2	NA	FALSE	FALSE	Referent 73	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	nangkun by marriage	2 + 2S	pugarli	1	2	NA	FALSE	FALSE	Referent 45	MZDH > MDH > ZH	2	2	4	1	1	0	production	inapposite	production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	yile 1 by marriage	1 + 1S + 1M	dedi	NA	2	NA	TRUE	TRUE	Referent 74	MZH > MH > F	2	1	3	0	1	1	production	inapposite	production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	kaka 2 by marriage	3 + 2S	paba	NA	2	NA	FALSE	FALSE	Referent 41	MZDHF > MDHF > ZHF	2	3	5	1	1	0	production	inapposite	production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	wakal 1 by marriage	1 + 1S + 1M	nginarr	NA	3	NA	FALSE	FALSE	Referent 75	MZH > MH > F	3	1	3	0	1	1	altercentricity	inapposite	altercentric production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	ngathan 1	1 + 2S	paba	1	3	NA	TRUE	TRUE	Referent 76	MZS > MS > B	3	1	3	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	nangkun by marriage	3 + 2S	pugarli	NA	3	NA	FALSE	FALSE	Referent 53	MZDHZ > MDHZ > ZHZ	3	3	5	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 40	Participant 6	6	D 13;4_16	M	TRUE	wakal, muluk	4	nginarr	NA	3	NA	FALSE	FALSE	Referent 77	FMBS	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 55	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 56	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 57	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	munak 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 58	MZD > MD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	ngathan 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kangkurl	2	*	NA	1	TRUE	TRUE	TRUE	Referent 60	FF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	pipi 2	2	*	NA	1	TRUE	TRUE	TRUE	Referent 61	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kaka 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 62	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 63	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	pugarli	3	*	NA	1	TRUE	TRUE	TRUE	Referent 64	MBD	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kaka 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 65	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 66	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	nangkun	2 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 67	MZDHB > MDHB > ZHB > ZH	1	2	5	1	2	0	comprehension	inapposite	comprehension	2
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	mangka by marriage	2 + 1S + 1H + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 35	FMFWD > FMMD > FMZ > FM	1	2	5	1	1	1	comprehension	inapposite	comprehension	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 46	FFBSS > FFSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	pipi	4	*	NA	1	FALSE	FALSE	FALSE	Referent 52	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 68	MMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	wakal	1 + 3S	kaka	NA	2	NA	FALSE	FALSE	Referent 71	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 72	MBS	2	3	3	0	0	0	production	inapposite	production	0
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	wakal	1 + 3S	wakal	NA	2	NA	TRUE	TRUE	Referent 73	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	nangkun by marriage	2 + 2S	pugarli	1	2	NA	FALSE	FALSE	Referent 45	MZDH > MDH > ZH	2	2	4	1	1	0	production	inapposite	production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	yile 1 by marriage	1 + 1S + 1M	dedi, yile	NA	2	NA	TRUE	TRUE	Referent 74	MZH > MH > F	2	1	3	0	1	1	production	inapposite	production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	kaka 2 by marriage	3 + 2S	pule	NA	2	NA	FALSE	FALSE	Referent 41	MZDHF > MDHF > ZHF	2	3	5	1	1	0	production	inapposite	production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	wakal 1 by marriage	1 + 1S + 1M	nginarr	NA	3	NA	FALSE	FALSE	Referent 75	MZH > MH > F	3	1	3	0	1	1	altercentricity	inapposite	altercentric production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	ngathan 1	1 + 2S	ngathan	1	3	NA	TRUE	TRUE	Referent 76	MZS > MS > B	3	1	3	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	nangkun by marriage	3 + 2S	pugarli	NA	3	NA	FALSE	FALSE	Referent 53	MZDHZ > MDHZ > ZHZ	3	3	5	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 41	Participant 7	7	D 13;4_16	M	TRUE	wakal, muluk	4	nginarr	NA	3	NA	FALSE	FALSE	Referent 77	FMBS	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 69	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 56	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 57	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	munak 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 58	MZD > MD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kangkurl	2	*	NA	1	TRUE	TRUE	TRUE	Referent 60	FF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	pipi 2	2	*	NA	1	TRUE	TRUE	TRUE	Referent 61	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kaka 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 62	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 63	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	pugarli	3	*	NA	1	TRUE	TRUE	TRUE	Referent 64	MBD	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kaka 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 65	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 66	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	nangkun	2 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 67	MZDHB > MDHB > ZHB > ZH	1	2	5	1	2	0	comprehension	inapposite	comprehension	2
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	mangka by marriage	2 + 1S + 1H + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 35	FMFWD > FMMD > FMZ > FM	1	2	5	1	1	1	comprehension	inapposite	comprehension	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 46	FFBSS > FFSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	pipi	4	*	NA	1	FALSE	FALSE	FALSE	Referent 52	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 68	MMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	wakal	1 + 3S	kaka	NA	2	NA	FALSE	FALSE	Referent 71	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 72	MBS	2	3	3	0	0	0	production	inapposite	production	0
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	wakal	1 + 3S	kaka	NA	2	NA	FALSE	FALSE	Referent 73	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	nangkun by marriage	2 + 2S	pugarli	1	2	NA	FALSE	FALSE	Referent 45	MZDH > MDH > ZH	2	2	4	1	1	0	production	inapposite	production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	yile 1 by marriage	1 + 1S + 1M	dedi	NA	2	NA	TRUE	TRUE	Referent 74	MZH > MH > F	2	1	3	0	1	1	production	inapposite	production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	kaka 2 by marriage	3 + 2S	*	NA	2	NA	FALSE	FALSE	Referent 41	MZDHF > MDHF > ZHF	2	3	5	1	1	0	production	inapposite	production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	wakal 1 by marriage	1 + 1S + 1M	kawu	NA	3	NA	FALSE	FALSE	Referent 75	MZH > MH > F	3	1	3	0	1	1	altercentricity	inapposite	altercentric production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	ngathan 1	1 + 2S	paba	1	3	NA	TRUE	TRUE	Referent 76	MZS > MS > B	3	1	3	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	nangkun by marriage	3 + 2S	pugarli	NA	3	NA	FALSE	FALSE	Referent 53	MZDHZ > MDHZ > ZHZ	3	3	5	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 42	Participant 8	8	C 10;7_13;3	M	TRUE	wakal, muluk	4	kawu	NA	3	NA	FALSE	FALSE	Referent 77	FMBS	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 55	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 56	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 57	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	munak 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 58	MZD > MD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	ngathan 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kangkurl	2	*	NA	1	TRUE	TRUE	TRUE	Referent 60	FF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	pipi 2	2	*	NA	1	TRUE	TRUE	TRUE	Referent 61	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kaka 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 62	MFBS > MFS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 63	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	pugarli	3	*	NA	1	TRUE	TRUE	TRUE	Referent 64	MBD	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kaka 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 65	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 66	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	nangkun	2 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 67	MZDHB > MDHB > ZHB > ZH	1	2	5	1	2	0	comprehension	inapposite	comprehension	2
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	mangka by marriage	2 + 1S + 1H + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 35	FMFWD > FMMD > FMZ > FM	1	2	5	1	1	1	comprehension	inapposite	comprehension	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 46	FFBSS > FFSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	pipi	4	*	NA	1	FALSE	FALSE	FALSE	Referent 52	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 68	MMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	wakal	1 + 3S	mama ??	NA	2	NA	FALSE	FALSE	Referent 71	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 72	MBS	2	3	3	0	0	0	production	inapposite	production	0
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	wakal	1 + 3S	wakal	NA	2	NA	TRUE	TRUE	Referent 73	MZDS > MDS > ZS	2	2	4	1	1	0	production	inapposite	production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	nangkun by marriage	2 + 2S	pugarli	NA	2	NA	FALSE	FALSE	Referent 45	MZDH > MDH > ZH	2	2	4	1	1	0	production	inapposite	production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	yile 1 by marriage	1 + 1S + 1M	dedi	NA	2	NA	TRUE	TRUE	Referent 74	MZH > MH > F	2	1	3	0	1	1	production	inapposite	production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	kaka 2 by marriage	3 + 2S	?kaka	NA	2	NA	TRUE	TRUE	Referent 41	MZDHF > MDHF > ZHF	2	3	5	1	1	0	production	inapposite	production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	wakal 1 by marriage	1 + 1S + 1M	nginarr	NA	3	NA	FALSE	FALSE	Referent 75	MZH > MH > F	3	1	3	0	1	1	altercentricity	inapposite	altercentric production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	munak 1	1 + 2S	ngathan	NA	3	NA	FALSE	FALSE	Referent 76	MZS > MS > B	3	1	3	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	purrima by marriage	3 + 2S	pugarli	1	3	NA	FALSE	FALSE	Referent 53	MZDHZ > MDHZ > ZHZ	3	3	5	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 43	Participant 9	9	B 7;10_10;6	F	TRUE	wakal, muluk	4	nginarr	NA	3	NA	FALSE	FALSE	Referent 77	FMBS	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 1	FMZSS > FMSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 78	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 26	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pipi 1	2 + 1S+1H	*	NA	1	FALSE	FALSE	FALSE	Referent 11	FMZD > FMD > FZ	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	munak 1	1 + 2S+2H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 5	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 79	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kawu F	1 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 80	MMZ > MM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pugarli	1 + 1S + 1H	*	NA	1	TRUE	FALSE	TRUE	Referent 23	FMZDD > FMDD > FZD	1	3	5	1	1	0	comprehension	apposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pipi 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 81	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kangkurl F	3	*	NA	1	FALSE	FALSE	FALSE	Referent 82	FFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kale 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 83	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 84	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	mangka	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 27	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	mangka	1 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 85	FMZ > FM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 37	FMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 86	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	newuy	3	*	NA	1	TRUE	TRUE	TRUE	Referent 87	MMM	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	ngathan 2	5	*	1	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 2	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kangkurl by marriage	2 + 1S + 1M	kakurl	1	2	NA	TRUE	TRUE	Referent 88	FMZH > FMH > FF	2	2	4	0	1	1	production	inapposite	production	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pipi 1	1	pipi	NA	2	NA	TRUE	TRUE	Referent 89	FZ	2	2	2	0	0	0	production	inapposite	production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	pugarli	3	*	1	2	NA	FALSE	FALSE	Referent 90	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kale 2	4	*	NA	2	NA	FALSE	FALSE	Referent 91	FMBD	2	4	4	0	0	0	production	inapposite	production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	ngathan 1	1	mumak	NA	3	NA	FALSE	FALSE	Referent 92	Z	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	muluk/wakal	2	pipi	NA	3	NA	FALSE	FALSE	Referent 24	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	muluk/wakal	1 + 2S+1H	didn't know	NA	3	NA	FALSE	FALSE	Referent 93	FMZS > FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	kawu F	2 + 1S	kawu	1	3	NA	TRUE	TRUE	Referent 94	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 9	Participant 10	10	B 7;10_10;6	M	TRUE	ngathan 1	1 + 2S+2H	?munak	NA	3	NA	FALSE	FALSE	Referent 95	FMZSD > FMSD > FBD > FD > Z	3	1	5	2	2	0	altercentricity	inapposite	altercentric production	2
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 1	FMZSS > FMSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 78	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 26	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pipi 1	2 + 1S+1H	pipi	NA	1	TRUE	FALSE	TRUE	Referent 11	FMZD > FMD > FZ	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	munak 1	1 + 2S+2H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 5	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 79	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kawu F	1 + 1S	tjabutj	NA	1	TRUE	TRUE	TRUE	Referent 80	MMZ > MM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pugarli	1 + 1S + 1H	*	NA	1	TRUE	FALSE	TRUE	Referent 23	FMZDD > FMDD > FZD	1	3	5	1	1	0	comprehension	apposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 81	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kaka 2	4	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kangkurl F	3	kakurl	NA	1	TRUE	TRUE	TRUE	Referent 82	FFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kale 2	4	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 83	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 84	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	mangka	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 27	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	mangka	1 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 85	FMZ > FM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kaka 2	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 37	FMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pipi 2	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 86	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	newuy	3	*	NA	1	TRUE	TRUE	TRUE	Referent 87	MMM	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	ngathan 2	5	pugarli	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 2	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kangkurl by marriage	2 + 1S + 1M	kakurl	1	2	NA	TRUE	TRUE	Referent 88	FMZH > FMH > FF	2	2	4	0	1	1	production	inapposite	production	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pipi 1	1	pipi	NA	2	NA	TRUE	TRUE	Referent 89	FZ	2	2	2	0	0	0	production	inapposite	production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	pugarli	3	mumak	1	2	NA	FALSE	FALSE	Referent 90	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kale 2	4	nginarr	NA	2	NA	FALSE	FALSE	Referent 91	FMBD	2	4	4	0	0	0	production	inapposite	production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	munak 1	1	paba	NA	3	NA	FALSE	FALSE	Referent 96	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	newuy/wakal	2	wakal	NA	3	NA	TRUE	TRUE	Referent 24	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	muluk/wakal	1 + 2S+1H	wakal	NA	3	NA	TRUE	TRUE	Referent 93	FMZS > FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	kawu	2 + 1S	kawu	1	3	NA	TRUE	TRUE	Referent 94	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 10	Participant 11	11	D 13;4_16	F	TRUE	munak 1	1 + 2S+2H	mumak	NA	3	NA	TRUE	TRUE	Referent 97	FMZSS > FMSS > FBS > FS > B	3	1	5	2	2	0	altercentricity	inapposite	altercentric production	2
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 1	FMZSS > FMSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 78	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 26	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pipi 1	2 + 1S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 11	FMZD > FMD > FZ	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	munak 1	1 + 2S+2H	munak	NA	1	TRUE	TRUE	TRUE	Referent 5	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 79	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kawu F	1 + 1S	thamuny	NA	1	TRUE	TRUE	TRUE	Referent 80	MMZ > MM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pugarli	1 + 1S + 1H	*	NA	1	FALSE	TRUE	FALSE	Referent 23	FMZDD > FMDD > FZD	1	3	5	1	1	0	comprehension	apposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 81	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kangkurl F	3	kangkurl	NA	1	TRUE	TRUE	TRUE	Referent 82	FFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kale 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 83	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	yile 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 84	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	mangka	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 27	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	mangka	1 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 85	FMZ > FM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 37	FMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pipi 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 86	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	newuy	3	*	NA	1	TRUE	TRUE	TRUE	Referent 87	MMM	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	ngathan 2	5	pugarli	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 2	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kangkurl by marriage	2 + 1S + 1M	kakurl	1	2	NA	TRUE	TRUE	Referent 88	FMZH > FMH > FF	2	2	4	0	1	1	production	inapposite	production	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pipi 1	1	pipi	NA	2	NA	TRUE	TRUE	Referent 89	FZ	2	2	2	0	0	0	production	inapposite	production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 90	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kale 2	4	*	NA	2	NA	FALSE	FALSE	Referent 91	FMBD	2	4	4	0	0	0	production	inapposite	production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	munak 1	1	paba	NA	3	NA	FALSE	FALSE	Referent 96	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	newuy/wakal	2	pipi	NA	3	NA	FALSE	FALSE	Referent 24	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	muluk/wakal	1 + 2S+1H	dedi	NA	3	NA	FALSE	FALSE	Referent 93	FMZS > FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	kawu	2 + 1S	kawu	1	3	NA	TRUE	TRUE	Referent 94	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 13	Participant 12	12	C 10;7_13;3	F	TRUE	munak 1	1 + 2S+2H	pugarli	NA	3	NA	FALSE	FALSE	Referent 97	FMZSS > FMSS > FBS > FS > B	3	1	5	2	2	0	altercentricity	inapposite	altercentric production	2
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 1	FMZSS > FMSS > FBS > FS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 78	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 26	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pipi 1	2 + 1S+1H	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 11	FMZD > FMD > FZ	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	munak 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 5	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 79	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kawu F	1 + 1S	tjabutj	NA	1	TRUE	TRUE	TRUE	Referent 80	MMZ > MM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pugarli	1 + 1S + 1H	*	NA	1	TRUE	FALSE	TRUE	Referent 23	FMZDD > FMDD > FZD	1	3	5	1	1	0	comprehension	apposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 81	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kangkurl F	3	*	NA	1	FALSE	FALSE	FALSE	Referent 82	FFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kale 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 83	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	yile 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 84	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	mangka	1 + 1S	maka	NA	1	TRUE	TRUE	TRUE	Referent 27	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	mangka	1 + 1S	Tjabutj	NA	1	FALSE	FALSE	FALSE	Referent 85	FMZ > FM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 37	FMBS	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pipi 2	4	mama	NA	1	TRUE	TRUE	TRUE	Referent 86	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	newuy	3	*	NA	1	TRUE	TRUE	TRUE	Referent 87	MMM	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	ngathan 2	5	pugarli	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 2	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kangkurl by marriage	2 + 1S + 1M	kangkurl	1	2	NA	TRUE	TRUE	Referent 88	FMZH > FMH > FF	2	2	4	0	1	1	production	inapposite	production	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pipi 1	1	pipi	NA	2	NA	TRUE	TRUE	Referent 89	FZ	2	2	2	0	0	0	production	inapposite	production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	pugarli	3	mumak	1	2	NA	FALSE	FALSE	Referent 90	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kale 2	4	*	NA	2	NA	FALSE	FALSE	Referent 91	FMBD	2	4	4	0	0	0	production	inapposite	production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	munak 1	1	paba	NA	3	NA	FALSE	FALSE	Referent 96	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	newuy/wakal	2	*	NA	3	NA	FALSE	FALSE	Referent 24	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	muluk/wakal	1 + 2S+1H	*	NA	3	NA	FALSE	FALSE	Referent 93	FMZS > FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	kawu	2 + 1S	kawu	1	3	NA	TRUE	TRUE	Referent 94	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 11	Participant 13	13	C 10;7_13;3	F	TRUE	munak 1	1 + 2S+2H	pugarli	NA	3	NA	FALSE	FALSE	Referent 97	FMZSS > FMSS > FBS > FS > B	3	1	5	2	2	0	altercentricity	inapposite	altercentric production	2
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 1	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 3	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 4	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	FALSE	FALSE	FALSE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	mangka	2	*	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	munak 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	pugarli	3 + 1S+1H	*	NA	1	FALSE	FALSE	FALSE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	pipi 1	2	*	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	thamuny 1M	2	*	NA	1	TRUE	TRUE	TRUE	Referent 14	MF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	pipi 2	4	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 15	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 16	MMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	nangkun	5	*	NA	1	FALSE	FALSE	FALSE	Referent 17	MMBDS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	kaka 1 by marriage	2 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 18	FZH > MB	1	2	3	0	0	1	comprehension	apposite	comprehension	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	ngathan 2	5	paba	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	yile 2	4	nginarr	NA	2	NA	TRUE	TRUE	Referent 21	MMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	pugarli	3	nginarr	1	2	NA	FALSE	FALSE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	NA	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	wakal/newuy	1 + 2S+1H+1M	mama	NA	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	mangka	2 + 1S	maka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 31	Participant 14	14	A 5_7;9	F	TRUE	wakal/newuy	1 + 2S+1H	dedi	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	munak 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 95	Z	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 3	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 4	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kangkurl	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	mangka	2	*	NA	1	FALSE	FALSE	FALSE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	munak 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	pugarli	3 + 2S	*	NA	1	FALSE	FALSE	FALSE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	pipi 1	2	*	NA	1	FALSE	FALSE	FALSE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kaka 1	2	*	NA	1	FALSE	FALSE	FALSE	Referent 12	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	thamuny 1M	2	*	NA	1	TRUE	TRUE	TRUE	Referent 14	MF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 15	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 16	MMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	nangkun	5	*	NA	1	TRUE	TRUE	TRUE	Referent 17	MMBDS	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kaka 1 by marriage	2 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 18	FZH > MB	1	2	3	0	0	1	comprehension	apposite	comprehension	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	ngathan 2	5	*	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	yile 2	4	*	NA	2	NA	FALSE	FALSE	Referent 21	MMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	pugarli	3	*	1	2	NA	FALSE	FALSE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	pipi 1	2 + 1S+1H	*	NA	2	NA	FALSE	FALSE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	ngathan 1	1	mumak	NA	3	NA	FALSE	FALSE	Referent 98	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	wakal/newuy	2	pipi	NA	3	NA	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	wakal/muluk	1 + 2S+1H+1M	*	NA	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	kawu wDS	2 + 1S	*	1	3	NA	FALSE	FALSE	Referent 27	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 30	Participant 15	15	A 5_7;9	M	TRUE	wakal/muluk	1 + 2S+1H	*	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 1	FBS > FS > B	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	yile 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 2	F	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 22	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 4	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	munak 1	1 + 1S +1H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	mangka	2	maka	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	munak 1	1 + 2S+2H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pugarli	3 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kaka 1	2	kaka	NA	1	TRUE	TRUE	TRUE	Referent 99	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	thamuny 2M by marriage	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 101	MMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pipi 1 by marriage	2 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 102	MBW > FZ	1	2	3	0	0	1	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kaka 1	2 + 2S	kaka	NA	1	TRUE	TRUE	TRUE	Referent 103	MMZS > MMS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kaka 1 by marriage	2 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 18	FZH > MB	1	2	3	0	0	1	comprehension	apposite	comprehension	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	ngathan 2	5	*	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	yile 2	4	*	NA	2	NA	FALSE	FALSE	Referent 104	MMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	kale 1 by marriage	1 + 1S + 1M	mama	NA	2	NA	TRUE	TRUE	Referent 3	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pugarli	3	pugarli	1	2	NA	TRUE	TRUE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	pipi 1	2 + 1S+1H	*	NA	2	NA	FALSE	FALSE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	munak 1	1	ngathan	NA	3	NA	FALSE	FALSE	Referent 1	FBS > FS > B	3	2	3	1	0	0	altercentricity	inapposite	altercentric production	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	wakal/newuy	2	pipi	NA	3	NA	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	wakal/newuy	1 + 2S+1H+1M	gidarr	NA	3	FALSE	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	mangka	1 + 1S	maka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 25	Participant 16	16	A 5_7;9	F	TRUE	wakal/newuy	1 + 2S+1H	dedi	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	1	TRUE	TRUE	TRUE	Referent 9	MMZDS > MMDS > MZS> MS > B	1	1	5	2	2	0	comprehension	apposite	comprehension	2
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kale 1	1 + 2S+1H	*	NA	1	TRUE	TRUE	TRUE	Referent 89	MMZD > MMD > MZ > M	1	1	4	1	2	0	comprehension	apposite	comprehension	2
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	munak 1	1 + 2S	*	NA	1	FALSE	FALSE	FALSE	Referent 11	MZD > MD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	yile 1 by marriage	1 + 1S + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 105	MZH > MH > F	1	1	3	0	1	1	comprehension	apposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	thamuny 1M	2 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 6	MFB > MF	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kawu F	2 + 1S	kawu	NA	1	TRUE	TRUE	TRUE	Referent 7	MMZ > MM	1	2	3	0	1	0	comprehension	inapposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	pugarli	3	*	NA	1	FALSE	FALSE	FALSE	Referent 95	MBD	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kale 1 by marriage	1 + 1S + 1M	mama mutjing ngay	NA	1	TRUE	TRUE	TRUE	Referent 66	FBW > FW > M	1	1	3	0	1	1	comprehension	inapposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kaka 1	2	kaka	NA	1	TRUE	TRUE	TRUE	Referent 106	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	thamuny 1F	3	tebala	NA	1	FALSE	FALSE	FALSE	Referent 107	MFZ	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kaka 1	2 + 2S	kaka	NA	1	TRUE	TRUE	TRUE	Referent 78	MMZS > MMS > MB	1	2	4	1	1	0	comprehension	inapposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	mangka	2 + 1S	*	NA	1	FALSE	FALSE	FALSE	Referent 108	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	yile 2, nginarr	4	*	NA	1	FALSE	FALSE	FALSE	Referent 109	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	pipi 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 91	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 110	MFZD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	thamuny 1M	2	*	NA	1	TRUE	TRUE	TRUE	Referent 88	MF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	purrima	5	*	NA	1	FALSE	FALSE	FALSE	Referent 111	MMBDD	1	5	5	0	0	0	comprehension	apposite	comprehension	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	ngathan 2	5	ngathan	NA	2	NA	TRUE	TRUE	Referent 1	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	thamuny 2	3	thamuny	1	2	NA	TRUE	TRUE	Referent 100	FMB	2	3	3	0	0	0	production	inapposite	production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	nangkun	5	*	NA	2	NA	FALSE	FALSE	Referent 112	MMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kale 1	1 + 2S+1H	mama	NA	2	NA	TRUE	TRUE	Referent 113	MMZD > MMD > MZ > M	2	1	4	1	2	0	production	inapposite	production	2
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	pipi 1 by marriage	2 + 1M	kale	NA	2	NA	FALSE	FALSE	Referent 114	MBW > FZ	2	2	3	0	0	1	production	inapposite	production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	pipi 1	2 + 1S+1H	*	NA	2	NA	FALSE	FALSE	Referent 110	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	ngathan 1	1 + 2S+2H	*	NA	3	NA	FALSE	FALSE	Referent 115	MMZDS > MMDS > MZS> MS > B	3	1	5	2	2	0	altercentricity	inapposite	altercentric production	2
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	wakal/newuy	1	mama	NA	3	NA	FALSE	FALSE	Referent 116	M	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	wakal/newuy	2	kaka	NA	3	NA	FALSE	FALSE	Referent 93	MB	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	kawu	2 + 1S	kawu	1	3	NA	TRUE	TRUE	Referent 27	MMZ > MM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 7	Participant 17	17	A 5_7;9	F	TRUE	wakal/newuy	2 + 2S	kaka	NA	3	NA	FALSE	FALSE	Referent 117	MMZS > MMS > MB	3	2	4	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 114	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	mangka	2	maka	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	munak 1	1 + 2S+2H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	pugarli	3 + 2S	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kaka 2	4	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	thamuny 1F	3	thamuny	NA	1	TRUE	TRUE	TRUE	Referent 119	MFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	thamuny 1M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 120	MFB > MF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 121	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kangkurl	3 + 1M	nginarr	NA	1	TRUE	TRUE	TRUE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	yile 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	thamuny 2	3 + 1M	muluk pule	NA	1	TRUE	TRUE	TRUE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	munak 2	5	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	ngathan 2	5	paba	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kaka 1 by marriage	2 + 1M	kaka	NA	2	NA	TRUE	TRUE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	kale 1 by marriage	1 + 1S+1M	nginarr	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	pugarli	3	pugarli	NA	2	NA	TRUE	TRUE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	NA	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	munak 1	1	mumak	NA	3	NA	TRUE	TRUE	Referent 123	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	wakal/newuy	2	wakal	NA	3	NA	TRUE	TRUE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	wakal/newuy	2 + 1M	kawu mumak	NA	3	NA	FALSE	FALSE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H+1M	wakal	NA	3	NA	TRUE	TRUE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	mangka	2 + 1S	mangka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 27	Participant 18	18	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H	wakal	NA	3	NA	TRUE	TRUE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 114	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	munak 1	1 + 1S +1H	munak	NA	1	TRUE	TRUE	TRUE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	mangka	2	mangka	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	munak 1	1 + 2S+2H	munak	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	pugarli	3 + 2S	kaski	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kaka 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	thamuny 1F	3	thamuny	NA	1	TRUE	TRUE	TRUE	Referent 119	MFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	thamuny 1M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 120	MFB > MF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	pipi 2	4	mama	NA	1	TRUE	TRUE	TRUE	Referent 121	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kangkurl	3 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	yile 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	thamuny 2	3 + 1M	*	NA	1	FALSE	NA	FALSE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	munak 2	5	kaski	NA	1	TRUE	TRUE	TRUE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	ngathan 2	5	pule	NA	2	FALSE	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	FALSE	TRUE	TRUE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kaka 1 by marriage	2 + 1M	kaka	NA	2	FALSE	TRUE	TRUE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	FALSE	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	pugarli	3	pugarli	NA	2	FALSE	TRUE	TRUE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	FALSE	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	ngathan 1	1	munak	NA	3	FALSE	FALSE	FALSE	Referent 4	Z	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	wakal/newuy	2	pipi	NA	3	FALSE	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	wakal/newuy	2 + 1M	kaka	NA	3	FALSE	FALSE	FALSE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	wakal/newuy	1 + 2S+1H+1M	mama	NA	3	FALSE	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	mangka	2 + 1S	mangka	1	3	FALSE	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 34	Participant 19	19	B 7;10_10;6	M	TRUE	wakal/newuy	1 + 2S+1H	dedi	NA	3	FALSE	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 114	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	FALSE	FALSE	FALSE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	mangka	2	*	NA	1	FALSE	FALSE	FALSE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	munak 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	pugarli	3 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	pipi 1	2	*	NA	1	FALSE	FALSE	FALSE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	thamuny 1F	3	*	NA	1	FALSE	FALSE	FALSE	Referent 119	MFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	thamuny 1M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 120	MFB > MF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 121	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kangkurl	3 + 1M	*	NA	1	TRUE	TRUE	TRUE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	yile 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	thamuny 2	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	munak 2	5	*	NA	1	FALSE	FALSE	FALSE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	ngathan 2	5	*	NA	2	NA	FALSE	FALSE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kaka 1 by marriage	2 + 1M	*	NA	2	NA	FALSE	FALSE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	pugarli	3	*	NA	2	NA	FALSE	FALSE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	NA	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	ngathan 1	1	munak	NA	3	NA	FALSE	FALSE	Referent 4	Z	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	wakal/newuy	2	pipi	NA	3	NA	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	wakal/newuy	2 + 1M	*	NA	3	NA	FALSE	FALSE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	wakal/newuy	1 + 2S+1H+1M	*	NA	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	mangka	2 + 1S	pipi	1	3	NA	FALSE	FALSE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 24	Participant 20	20	B 7;10_10;6	M	TRUE	wakal/newuy	1 + 2S+1H	kaka	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 114	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	munak 1	1 + 1S +1H	thatha	NA	1	FALSE	NA	FALSE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	FALSE	FALSE	FALSE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	mangka	2	*	NA	1	FALSE	FALSE	FALSE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	munak 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	pugarli	3 + 2S	*	NA	1	FALSE	NA	FALSE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	pipi 1	2	*	NA	1	FALSE	FALSE	FALSE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	thamuny 1F	3	*	NA	1	FALSE	FALSE	FALSE	Referent 119	MFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	thamuny 1M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 120	MFB > MF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 121	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kangkurl	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	yile 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	thamuny 2	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	munak 2	5	*	NA	1	FALSE	FALSE	FALSE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	ngathan 2	5	paba	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kaka 1 by marriage	2 + 1M	pugarli	NA	2	NA	FALSE	FALSE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	pugarli	3	*	NA	2	NA	FALSE	FALSE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	pipi 1	2 + 1S+1H	*	NA	2	NA	FALSE	FALSE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	ngathan 1	1	munak	NA	3	NA	FALSE	FALSE	Referent 4	Z	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	wakal/newuy	2	*	NA	3	NA	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	wakal/newuy	2 + 1M	pugarli	NA	3	NA	FALSE	FALSE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	wakal/newuy	1 + 2S+1H+1M	paba	NA	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	mangka	2 + 1S	maka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 6	Participant 21	21	A 5_7;9	M	TRUE	wakal/newuy	1 + 2S+1H	pugarli	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	yile 1	1 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kale 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 114	M	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	munak 1	1 + 1S +1H	paba	NA	1	FALSE	FALSE	FALSE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	mangka	2	*	NA	1	FALSE	FALSE	FALSE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	munak 1	1 + 2S+2H	*	NA	1	FALSE	FALSE	FALSE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	pugarli	3 + 2S	*	NA	1	FALSE	FALSE	FALSE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kaka 2	4	*	NA	1	TRUE	TRUE	TRUE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	thamuny 1F	3	*	NA	1	FALSE	FALSE	FALSE	Referent 119	MFZ	1	3	3	0	0	0	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	mangka	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	thamuny 1M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 120	MFB > MF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	pipi 2	4	*	NA	1	FALSE	FALSE	FALSE	Referent 121	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kangkurl	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	yile 2 nginarr	4	*	NA	1	TRUE	TRUE	TRUE	Referent 59	MMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	thamuny 2	3 + 1M	*	NA	1	FALSE	FALSE	FALSE	Referent 100	FFZH > FMB	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	munak 2	5	*	NA	1	FALSE	FALSE	FALSE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	thamuny 2	3	*	NA	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	ngathan 2	5	pule	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	yile 1	1 + 2S+1H	*	NA	2	NA	FALSE	FALSE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kaka 1 by marriage	2 + 1M	*	NA	2	NA	FALSE	FALSE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	kale 1 by marriage	1 + 1S+1M	*	NA	2	NA	FALSE	FALSE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	pugarli	3	*	NA	2	NA	FALSE	FALSE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	pipi 1	2 + 1S+1H	*	NA	2	NA	FALSE	FALSE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	ngathan 1	1	munak	NA	3	NA	FALSE	FALSE	Referent 4	Z	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	wakal/newuy	2	pipi	NA	3	NA	FALSE	FALSE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	wakal/newuy	2 + 1M	*	NA	3	NA	FALSE	FALSE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	wakal/newuy	1 + 2S+1H+1M	*	NA	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	mangka	2 + 1S	*	1	3	NA	FALSE	FALSE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 44	Participant 22	22	C 10;7_13;3	M	TRUE	wakal/newuy	1 + 2S+1H	*	NA	3	NA	FALSE	FALSE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	kawu	2	kawu	NA	1	TRUE	FALSE	TRUE	Referent 13	MM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	ngathan 1	1	paba	NA	1	TRUE	FALSE	TRUE	Referent 9	B	1	1	1	0	0	0	comprehension	inapposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	munak 1	1 + 2S	*	NA	1	TRUE	TRUE	TRUE	Referent 90	MZS > MD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 62	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	ngathan 1	1 + 2S	paba	NA	1	TRUE	FALSE	TRUE	Referent 125	MZS > MS > B	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	munak 1	1 + 2S+2H	mumak	NA	1	TRUE	FALSE	TRUE	Referent 126	MMZDD > MMDD > MZD > MD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pugarli	3 + 2S	pugarli	NA	1	TRUE	FALSE	TRUE	Referent 118	MMZSS > MMSS > MBS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pipi 1	2 + 1S + 1M	*	*	1	TRUE	FALSE	TRUE	Referent 127	FFBW > FFW > FM	1	2	4	0	1	1	comprehension	inapposite	comprehension	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	kaka 1	2	kaka	*	1	TRUE	FALSE	TRUE	Referent 117	MB	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	thamuny 1M	2	*	NA	1	TRUE	TRUE	TRUE	Referent 128	MF	1	2	2	0	0	0	comprehension	apposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pipi 2	4	nginarr	NA	1	TRUE	FALSE	TRUE	Referent 50	MMBD	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pipi 2 nginarr	4	*	*	1	TRUE	TRUE	TRUE	Referent 129	MMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pugarli	3	*	*	1	TRUE	TRUE	TRUE	Referent 96	MBS	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pipi 1 by marriage	2 + 1M	pipi	NA	1	TRUE	FALSE	TRUE	Referent 130	MBW > FZ	1	2	3	0	0	1	comprehension	inapposite	comprehension	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	nangkun	5	*	NA	2	NA	FALSE	FALSE	Referent 19	MMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	yile 2	4	nginarr	NA	2	NA	TRUE	TRUE	Referent 131	MMBS	2	4	4	0	0	0	production	inapposite	production	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	thamuny 1M	2 + 1S + 1M	thamuny	NA	2	NA	TRUE	TRUE	Referent 88	MMZH > MMH > MF	2	2	4	0	1	1	production	inapposite	production	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	kaka 1	2 + 2S	kaka	NA	2	NA	TRUE	TRUE	Referent 93	MMZS > MMS > MB	2	2	4	1	1	0	production	inapposite	production	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	pugarli	3	pugarli	NA	2	NA	TRUE	TRUE	Referent 8	MBD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	munak 1	1 + 2S+2H	munak	NA	2	NA	TRUE	TRUE	Referent 116	MMZDD > MMDD > MZD > MD > Z	2	1	5	2	2	0	production	inapposite	production	2
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	munak 1	1 + 2S	mumak	1	3	NA	TRUE	TRUE	Referent 90	MZD>MD>Z	3	1	3	1	1	0	altercentricity	inapposite	altercentric production	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	wakal/newuy	2	wakal	NA	3	NA	TRUE	TRUE	Referent 132	MB	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	wakal/newuy	1 +1S	*	NA	3	NA	FALSE	FALSE	Referent 133	MZ > M	3	1	2	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	thamuny 1M	2 + 1S	thamuny	1	3	NA	TRUE	TRUE	Referent 79	MFB > MF	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	kale 1	1 + 2S+1H	mama	NA	3	NA	FALSE	FALSE	Referent 11	MMZD > MMD > MZ > M	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2
+Participant 8	Participant 23	23	B 7;10_10;6	F	TRUE	nginarr, wakal	4	nginarr	NA	3	NA	TRUE	TRUE	Referent 134	MFZD	3	4	4	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	ngathan 1	1	*	NA	1	TRUE	TRUE	TRUE	Referent 118	B	1	1	1	0	0	0	comprehension	apposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	yile 1	1 + 1S	dedi	NA	1	TRUE	TRUE	TRUE	Referent 2	FB > F	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kale 1	1 + 1S	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 135	MZ > M	1	1	2	0	1	0	comprehension	apposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	*	NA	1	TRUE	TRUE	TRUE	Referent 95	FBD > FD > Z	1	1	3	1	1	0	comprehension	apposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	munak 1	1 + 1S +1H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 5	FBD > FD > Z	1	1	3	1	1	0	comprehension	inapposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kangkurl M	2 + 1S	*	NA	1	TRUE	TRUE	TRUE	Referent 6	FFB > FF	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	mangka	2	mangka	NA	1	TRUE	TRUE	TRUE	Referent 7	FM	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	munak 1	1 +2S+2H	mumak	NA	1	TRUE	TRUE	TRUE	Referent 8	FMZSD > FMSD > FBD > FD > Z	1	1	5	2	2	0	comprehension	inapposite	comprehension	2
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	pugarli	3 + 2S	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 9	FMZDS > FMDS > FZS	1	3	5	1	1	0	comprehension	inapposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kaka 2	4	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 10	FMBS	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	pipi 1	2	pipi	NA	1	TRUE	TRUE	TRUE	Referent 11	FZ	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	thamuny 1M	2	thamuny	NA	1	TRUE	TRUE	TRUE	Referent 136	MF	1	2	2	0	0	0	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	mangka	2 + 1S	*	*	1	TRUE	TRUE	TRUE	Referent 13	FMZ > FM	1	2	3	0	1	0	comprehension	apposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kale 1 by marriage	1 + 1M	pugarli	NA	1	TRUE	TRUE	TRUE	Referent 114	FW > M	1	1	2	0	0	1	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kale 2	4	nginarr	NA	1	FALSE	FALSE	FALSE	Referent 91	FMBD	1	4	4	0	0	0	comprehension	apposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kangkurl	3 + 1M	*	*	1	FALSE	FALSE	FALSE	Referent 48	FMBW > FFZ	1	3	4	0	0	1	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	newuy	4	newuy	NA	1	TRUE	TRUE	TRUE	Referent 108	MFFZ	1	4	4	0	0	0	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	thamuny 2	3 + 1S	muluk pule	NA	1	TRUE	TRUE	TRUE	Referent 100	FFZH > FMB, MFFB	1	3	4	0	1	0	comprehension	inapposite	comprehension	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	munak 2	5	mumak	NA	1	TRUE	TRUE	TRUE	Referent 111	FMBDD	1	5	5	0	0	0	comprehension	inapposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	thamuny 2	3	*	*	1	TRUE	TRUE	TRUE	Referent 122	FMB	1	3	3	0	0	0	comprehension	apposite	comprehension	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	ngathan 2	5	ngathan	NA	2	NA	TRUE	TRUE	Referent 19	FMBDS	2	5	5	0	0	0	production	inapposite	production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	yile 1	1 + 2S+1H	dedi	NA	2	NA	TRUE	TRUE	Referent 20	FMZS > FMS > FB > F	2	1	4	1	2	0	production	inapposite	production	2
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kaka 1 by marriage	2 + 1M	kaka	NA	2	NA	TRUE	TRUE	Referent 105	FZH > MB	2	2	3	0	0	1	production	inapposite	production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	kale 1 by marriage	1 + 1S+1M	mama	NA	2	NA	TRUE	TRUE	Referent 22	FBW > FW > M	2	1	3	0	1	1	production	inapposite	production	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	pugarli	3	pugarli	NA	2	NA	TRUE	TRUE	Referent 23	FZD	2	3	3	0	0	0	production	inapposite	production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	pipi 1	2 + 1S+1H	pipi	NA	2	NA	TRUE	TRUE	Referent 24	FMZD > FMD > FZ	2	2	4	1	1	0	production	inapposite	production	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	munak 1	1	paba	0	3	NA	FALSE	FALSE	Referent 123	B	3	1	1	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	wakal/newuy	2	wakal	0	3	NA	TRUE	TRUE	Referent 25	FZ	3	2	2	0	0	0	altercentricity	inapposite	altercentric production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	wakal/newuy	2 + 1M	wakal	0	3	NA	TRUE	TRUE	Referent 18	FZH > MB	3	2	3	0	0	1	altercentricity	inapposite	altercentric production	0
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H+1M	??	0	3	NA	FALSE	FALSE	Referent 26	FMZSW > FMSW > FBW>FW > M	3	1	5	1	2	1	altercentricity	inapposite	altercentric production	2
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	mangka	2 + 1S	mangka	1	3	NA	TRUE	TRUE	Referent 27	FMZ > FM	3	2	3	0	1	0	altercentricity	inapposite	altercentric production	1
+Participant 38	Participant 24	24	D 13;4_16	F	TRUE	wakal/newuy	1 + 2S+1H	wakal	0	3	NA	TRUE	TRUE	Referent 28	FMZS >FMS > FB > F	3	1	4	1	2	0	altercentricity	inapposite	altercentric production	2

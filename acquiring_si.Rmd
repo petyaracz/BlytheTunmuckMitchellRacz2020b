@@ -1,0 +1,744 @@
+---
+title: Supplementary Information for 'Acquiring the lexicon and grammar of universal
+  kinship'
+author: "Joe Blythe, Jeremiah Tunmuck, Alice Mitchell, and Péter Rácz"
+output:
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+This is the Supplementary Information file for *Acquiring universal kinship through lexicon and grammar*.
+
+```{r echo = F, message = F, warning = F}
+
+# opts
+
+knitr::opts_chunk$set(fig.path='si_figs/', eval=TRUE, echo=FALSE, warning = FALSE, message=FALSE, tidy=TRUE)
+
+# wd
+
+setwd('~/Github/BlytheTunmuckMitchellRacz2020/')
+
+# cores
+
+options(mc.cores=parallel::detectCores())
+# options(mc.cores=1)
+Sys.setenv(TZ="Europe/Rome")
+
+# libs
+
+library(tidyverse)
+library(tidylog)
+library(broom)
+library(patchwork)
+library(brms)
+library(knitr)
+library(glue)
+
+# data
+
+nominal = read_tsv('data/nominal_experiment_data.tsv')
+
+# participant codes
+
+# explanans: "Identifier" is the code used to anonymise participants. since some participants are present in both the nominal and kintax datasets, the values are relevant. "Participant ID" is a dummy variable that matches Identifier in the nominal data, and is used to provide elegant participant id-s for the tables.
+# participants = nominal %>% 
+#   distinct(
+#     Identifier
+#   ) %>% 
+#   mutate(
+#     count = 1:n(),
+#     `Participant ID` = paste0('Participant ', count)
+#   )
+# 
+# nominal = left_join(nominal, participants, by = 'Identifier')
+
+# we need to make sure that various ordered factors are ordered the way we want them.
+
+nominal = nominal %>% 
+  filter(
+    keep == T,
+    !is.na(correct)
+  ) %>% 
+  mutate(
+    `Age band` = case_when(
+        Age.Band == 'A 5_7;9' ~ 'A (5 - 7;9)',
+        Age.Band == 'B 7;10_10;6' ~ 'B (7;10 - 10;6)',
+        Age.Band == 'C 10;7_13;3' ~ 'C (10;7 - 13;3)',
+        Age.Band == 'D 13;4_16' ~ 'D (13;4 - 16)'
+      ),
+    Task2 = ordered(Task2),
+    Age.Band = ordered(Age.Band),
+    Gender = as.factor(Gender),
+    Kin.distance = ordered(Kin.distance),
+    Genealogical.distance = ordered(Genealogical.distance),
+    Half.sibling.merger = ordered(Half.sibling.merger),
+    Same.sex.sibling.merger = ordered(Same.sex.sibling.merger),
+    Step.kin.merger = as.factor(Step.kin.merger),
+    Task_name = factor(Task_name, levels = c('comprehension', 'production', 'altercentricity')),
+    Question_type = case_when(
+      Task_name == 'comprehension' & Task_name2 == 'apposite' ~ 'apposite',
+      Task_name == 'comprehension' & Task_name2 == 'inapposite' ~ 'inapposite'
+    )
+  )
+
+nominal$Task_name3 = ifelse(
+  nominal$Task_name == 'altercentricity', 'altercentric production', as.character(nominal$Task_name)
+)
+nominal$Task_name3 = factor(nominal$Task_name3, levels = c('comprehension', 'production', 'altercentric production'))
+
+# we report on comprehension questions separately
+
+k1 = nominal %>% 
+  filter(
+    Task_name == 'comprehension',
+    !is.na(correct_comp)
+  ) %>% 
+  droplevels %>% 
+  mutate(
+    Apposite = Task_name2 == 'apposite',
+    Veracity = ifelse(Apposite, 'Apposite question', 'Inapposite question')
+  )
+
+kintax = read_tsv('data/kintax_experiment_data.tsv')
+
+kintax = kintax %>% 
+  mutate(
+    `Age band` = case_when(
+        Age.bands == 'A 5_7;9' ~ 'A (5 - 7;9)',
+        Age.bands == 'B 7;10_10;6' ~ 'B (7;10 - 10;6)',
+        Age.bands == 'C 10;7_13;3' ~ 'C (10;7 - 13;3)',
+        Age.bands == 'D 13;4_16' ~ 'D (13;4 - 16)',
+        Age.bands == 'E 16;1_38' ~ 'E (16;1 - 38)',
+      ),
+    Condition = factor(Condition, levels = c('male v female', 'dual v paucal', 'cross- v parallel-cousin', 'sibling v non-sibling')),
+    Condition2 = ordered(Condition),
+    Age.bands = ordered(Age.bands)
+  ) %>% 
+  filter(
+    !is.na(Age.bands) # "Christina Alye Cumaiyi"  "Dave Nulurn Mullumbuk"   "Lucy Thangkirra Tcherna": Dave Nurlurn is too young, Lucy and Christina are not from the same genealogy (Joe)
+  )
+
+nominal.av = nominal %>% 
+  group_by(Identifier, Age.Band) %>% 
+  summarise(nominal.av = mean(na.omit(correct)))
+
+kintax2 = kintax %>% 
+  inner_join(nominal.av, by = 'Identifier')
+
+# palettes
+
+age.palette = 'YlOrRd'
+aunt.palette = 'Pastel2'
+cousine.palette = 'Pastel1'
+
+# functions
+
+## takes a tibble and one or two predictors, returns barplot
+
+plotBlythe = function(d, predictor1, predictor2, title){
+
+  d$response = case_when(
+    d$correct ~ 'correct',
+    !d$correct ~ 'incorrect'
+  )
+  
+  if (missing(predictor2)){ 
+    
+    predictor1 = enquo(predictor1)
+    
+    sum1 = d %>% 
+      count(
+        !!predictor1,
+        correct
+      ) %>% 
+      group_by(
+        !!predictor1
+      ) %>% 
+      mutate(
+        total = sum(n)
+      ) %>% 
+      filter(
+        correct
+      ) %>% 
+      mutate(
+        p = n / total,
+        se = sqrt( ( p * ( 1 - p ) ) / total )
+      )
+    
+    p1 = sum1 %>% 
+    ggplot(aes(x = !!predictor1, y = p)) +
+      geom_point(shape=16, size=2) +
+      geom_linerange(aes(ymin = p - se, ymax = p + se)) +
+      theme_light() +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()
+      ) +
+      ylab('Mean accuracy') +
+      scale_y_continuous(position = 'right', limits = c(0,1), breaks = c(0, .25, .5, .75, 1)) +
+      ggtitle(title)
+        
+    p2 = ggplot(d, aes(x = !!predictor1, fill = response)) +
+      geom_bar(position = position_dodge(0.9)) +
+      ylab('Answers per category') +
+      theme_light() +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
+        strip.background = element_blank(),
+        strip.text.x = element_blank()
+      ) +
+      scale_fill_grey(start = 0.2, end = 0.8)
+    
+    p3 = p1 / p2 + plot_layout(heights = c(1, 3))
+    
+    # the only other option is to have two, so here we assume that.  
+  } else { 
+    
+    predictor1 = enquo(predictor1)
+    predictor2 = enquo(predictor2)
+    
+    sum1 = d %>% 
+      count(
+        !!predictor1,
+        !!predictor2,
+        correct
+      ) %>% 
+      group_by(
+        !!predictor1,
+        !!predictor2
+      ) %>% 
+      mutate(
+        total = sum(n)
+      ) %>% 
+      filter(
+        correct
+      ) %>% 
+      mutate(
+        p = n / total,
+        se = sqrt( ( p * ( 1 - p ) ) / total )
+      )
+    
+    p1 = sum1 %>% 
+    ggplot(aes(x = !!predictor1, y = p)) +
+      geom_point(shape=16, size=2) +
+      geom_linerange(aes(ymin = p - se, ymax = p + se)) +
+      theme_light() +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()
+      ) +
+      ylab('Mean accuracy') +
+      scale_y_continuous(position = 'right', limits = c(0,1), breaks = c(0, .25, .5, .75, 1)) +
+      facet_wrap(vars(!!predictor2), ncol = 4) +
+      ggtitle(title)
+        
+    p2 = ggplot(d, aes(x = !!predictor1, fill = response)) +
+      geom_bar(position = position_dodge(0.9)) +
+      ylab('Answers per category') +
+      theme_light() +
+      theme(
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
+        strip.background = element_blank(),
+        strip.text.x = element_blank()
+      ) +
+      facet_wrap(vars(!!predictor2), ncol = 4) +
+      scale_fill_grey(start = 0.2, end = 0.8)
+    
+    p3 = p1 / p2 + plot_layout(heights = c(1, 3))
+    
+  }
+
+  return(p3)
+
+}
+
+# takes a model fit object and a list of effects
+printModel = function(fit, my.effects){
+  
+  my.effects = rev(my.effects) # you need to reverse the order of predictors for the coord flip which reverse-reverses them
+  
+  my.fixef = fixef(fit) %>% 
+    data.frame
+  my.fixef$Predictor = rownames(my.fixef) # grab all predictor names
+  
+  p1 = my.fixef %>% 
+    filter(Predictor %in% my.effects) %>% # keep relevant predictors
+    mutate(
+      Predictor = factor(Predictor, levels = my.effects) # fix order for plot
+    ) %>% 
+    ggplot(aes(x = Predictor, y = Estimate)) + # plot dots and line segments
+    geom_point() +
+    geom_linerange(aes(ymin = Q2.5, ymax = Q97.5)) +
+    coord_flip() +
+    theme_minimal() +
+    theme(
+      panel.grid.major.y = element_blank(),
+      panel.grid.minor.y = element_blank()
+      ) +
+    geom_hline(yintercept = 0, lty = 3)
+  
+  return(p1)
+}
+
+```
+
+## Nominal experiment
+
+### Structure
+
+Each participant responds to a tailor-made list of stimuli.
+
+The aim of the experiment was to show kinship relations to each participant in such a way that we can test the effect of an increase in genealogical distance, an increase in the complexity of kinship mergers, along with the effect of task type (apposite comprehension questions / inapposite comprehension questions / production / altercentric production). We also wanted to sample participants from four age groups, keeping the gender ratio across groups relatively balanced.
+
+Since each such kinship relation was captured by a real-life referent, and since the population of our fieldwork site, Wadeye, is relatively small, it was not possible to completely balance the number of question types per participant, or the number of participants per age group.
+
+Below we see the stimuli list for the first participant in our data.
+
+```{r }
+
+# k1 %>%
+#   count(Task_name2,Identifier) %>%
+#   pivot_wider(names_from = Task_name2, values_from = n) %>%
+#   summarise(
+#     min_apposite = min(apposite),
+#     max_apposite = max(apposite),
+#     min_inapposite = min(inapposite),
+#     max_inapposite = max(inapposite)
+#   )
+
+nominal %>% 
+  filter(`Participant ID` == 'Participant 1') %>% 
+  mutate( # tidying up column names for the table
+    `Trial n` = 1:n(),
+    `Task name` = Task_name,
+    `Question type` = case_when(
+        Task_name == 'comprehension' ~ glue('polar: {Task_name2}'),
+        Task_name != 'comprehension' ~ 'content'
+    ),
+    `Gen dist` = Genealogical.distance,
+    `Kin dist` = Kin.distance,
+  ) %>% 
+  select(
+    `Trial n`,
+    `Task name`,
+    Term,
+    `Question type`,
+    # Half.sibling.merger,
+    # Same.sex.sibling.merger,
+    # Step.kin.merger,
+    `Gen dist`,
+    `Kin dist`
+         ) %>% 
+  kable()
+
+```
+
+The tasks start easy enough ('is this your brother?') and get progressively harder, ending with 'what would this person call you?' [with a picture of the participant's father's mother's sister]. In the comprehension task, initial questions are more likely to be apposite, later questions are more likely to be inapposite.
+
+The stimuli for each participant follow this general structure, with slight variation in the number of question types. We illustrate this with the across-participant variation in (i) task type and (ii) merger type below.
+
+```{r }
+
+# life hack: if you order a table by a string, it will do "1, 10, 2". so I include a participant count dummy, order the table by that, and drop it. that way we have "1, 2, ... 10". same w/ kt2
+kt1 = nominal %>% 
+  count( # count number of trials per person per task type
+    `Participant ID`,
+    count,
+    Task_name
+  ) %>% 
+  pivot_wider( # make it wide: person x task type
+    id = c(`Participant ID`, count),
+    names_from = Task_name, 
+    values_from = n
+  ) %>% 
+  arrange(count) %>% 
+  select(-count)
+
+# range(kt1$comprehension)
+# range(kt1$production)
+# range(kt1$altercentricity)
+
+kable(kt1)
+
+kt2 = nominal %>% 
+  mutate( # make a human-readable value for same-sex sibling merger values which are currently integers
+    sssm = paste0(`Same-sex Sib Merger`, ' same-sex sib merger(s)')
+  ) %>% 
+  count( # count n trials per participant per sssm type
+    `Participant ID`,
+    count,
+    sssm
+  ) %>% 
+  pivot_wider( # make it wide: person x sssm type
+    id = c(`Participant ID`, count), 
+    names_from = sssm, 
+    values_from = n
+  ) %>% 
+  arrange(count) %>% 
+  select(-count)
+
+
+# min(kt2$`2 same-sex sib merger(s)`)
+# max(kt2$`2 same-sex sib merger(s)`)
+
+kable(kt2)
+
+```
+
+The minimum number of comprehension questions for a participant is 14, the maximum is 20. The minimum number of referents with a relationship including two same-sex sibling mergers to the participant is 2, the maximum is 5.
+
+Other similar asymmetries subsist in the stimuli, and, as a consequence, in the data. Same-sex sibling mergers are particularly illustrative: some children have a big enough family so that a larger number of these referents can be located, while some do not. The reader can use the dataset for similar cross-referenes.
+
+### Methods
+
+The number of question types, then, varies slightly across participants. Referents are `recycled': For example, Referent 11 is a father's sister to some, a mother's sister's daughter to others, and a father's mother's sister's daughter to yet others, and so on.
+
+This is where hierarchical models shine: we are able to assume that participants and referents will have varying success rates not captured by our predictors -- we can estimate random intercepts. Ideally, a participant might be more or less successful in answering specific types of questions -- which we could estimate using random slopes -- and this rate of success might be more or less variable depending on e.g.\ the amount of questions of a given type (a participant answering 20 comprehension questions has more room to vary than one answering 14 such questions). However, data structure and the amount of data available do not favour more complex model fits.
+
+Many of our predictors are ordered categories. Task type in the nominal experiment is a good example: we expect that comprehension is easier than production and that production is easier than altercentric production. When estimating the effects of ordered predictors, polynomial relationships between predictor and outcome are also considered. Given data scarcity, we only report and discuss linear (L) effects in the paper.
+
+Models were fit using brms and stan. We used weakly informative priors for beta and the intercept. In these cases, the weak priors are more conservative than non-informative priors, but results do not change substantially based on prior choice. Following advice by Gelman et al 2008, we specified student_t(1,0,2.5) as our weak prior. We followed the WAMBS checklist in model fitting diagnostics (following van de Schoot 2019).
+
+Below, we list the models and figures reported in the paper for the *nominal experiment*. The *code* for these models and figures is visible in the Rmd version of this Supplementary Information.
+
+We use line segments to visualise model predictions and bar charts to plot aggregated raw data. We did not use violin plots because, in many cases, the small number of trials per participant result in a small number of unique averages, making violin plots a strain on the eye. Instead, we show the total counts of correct and incorrect answers per question types. The height difference between the bars captures participant accuracy for a given question type, while the difference between these differences captures how accuracy varies across question types. We also provide means and binomial standard errors on separate helper charts above the main charts (it makes sense when you look at it).
+
+```{r eval=F}
+
+distinct(nominal,Referent_ID,Term) %>%
+  count(Referent_ID) %>%
+  arrange(-n)
+
+nominal %>% 
+  filter(Referent_ID == 'Referent 11') %>% 
+  pull(Term) %>% 
+  unique()
+
+```
+
+### Model 1
+
+```{r eval=F}
+gelman_hill_binom_priors = c(
+  prior(student_t(1, 0, 2.5), class = "Intercept"),
+  prior(student_t(1, 0, 2.5), class = "b")
+)
+
+fit1 = brm(correct_comp ~ Age.Band * Apposite + Kin.distance + (1|Identifier) + (1|Referent_ID), data=k1, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+fit1b = brm(correct_comp ~ Age.Band + Apposite + Kin.distance + (1|Identifier) + (1|Referent_ID), data=k1, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T, control = list(max_treedepth = 15))
+
+crit1 = add_criterion(fit1, c('waic', 'loo'), reloo = T)
+crit1b = add_criterion(fit1b, c('waic', 'loo'), reloo = T)
+
+# loo_compare(crit1, crit1b)
+save(fit1, file = 'si_models/fit1_prior.rda')
+save(fit1b, file = 'si_models/fit1b_prior.rda')
+
+```
+
+```{r results='asis'}
+load('si_models/fit1b_prior.rda')
+
+cat('Correct comp ~ Age band + Apposite + Kin distance + (1 | Identifier) + (1 | Referent_ID)')
+```
+
+```{r }
+fixef(fit1b) %>% 
+  kable(digits = 2)
+```
+
+### Figure 1
+
+```{r fig_1, fig.width = 5, fig.height = 2}
+
+printModel(fit1b, my.effects = c('Intercept', 'Age.Band.L', 'AppositeTRUE', 'Kin.distance.L')) +
+  scale_x_discrete(labels=c("Kinship distance (L)", "Question: apposite", "Age band (L)", "Intercept"))
+
+```
+
+### Figure 2
+
+```{r fig_2, eval=T, fig.width=8, fig.height=5.5}
+
+plotBlythe(d = k1, predictor1 = `Age band`, predictor2 = Veracity, title = '')
+
+```
+
+### Model 2
+
+```{r eval=F}
+
+fit2 = brm(correct ~ Age.Band * Task2 + Genealogical.distance + Same.sex.sibling.merger + Step.kin.merger + Half.sibling.merger + (1|Identifier) + (1|Referent_ID), data=nominal, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+fit2b = brm(correct ~ Age.Band + Task2 + Genealogical.distance + Same.sex.sibling.merger + Step.kin.merger + Half.sibling.merger + (1|Identifier) + (1|Referent_ID), data=nominal, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+crit2 = add_criterion(fit2, c('waic', 'loo'), reloo = T)
+crit2b = add_criterion(fit2b, c('waic', 'loo'), reloo = T)
+
+# loo_compare(crit2, crit2b)
+summary(fit2b)
+save(fit2, file = 'si_models/fit2_prior.rda')
+save(fit2b, file = 'si_models/fit2b_prior.rda')
+
+```
+
+```{r results='asis'}
+
+load('si_models/fit2b_prior.rda')
+
+cat('Correct ~ Age band + Task type + Genealogical distance + Same sex sibling merger + Step kin merger + Half-sibling merger + (1 | Identifier) + (1 | Referent ID)')
+
+```
+
+```{r }
+
+fixef(fit2b) %>% 
+  kable(digits = 2)
+```
+
+### Figure 3
+
+```{r fig_3, , fig.width=5, fig.height=3.5}
+
+printModel(fit2b, my.effects = c('Intercept', 'Task2.L', 'Step.kin.merger1', 'Same.sex.sibling.merger.L', 'Half.sibling.merger.L', 'Genealogical.distance.L', 'Age.Band.L')) +
+  scale_x_discrete(labels=c('Age band (L)', 'Genealogical distance (L)', 'Half sibling merger (L)', 'Same sex sibling merger (L)', 'Step kin merger present', 'Task type (L)', 'Intercept'))
+
+```
+
+### Figure 4
+
+```{r fig_4, fig.width=8, fig.height=5}
+
+plotBlythe(nominal, `Age band`, Task_name3, title = '')
+
+```
+
+### Figure 5
+
+```{r fig_5, fig.width=4, fig.height=4.5}
+
+comparisons = read.csv('data/comparisons.csv')
+nominal = nominal %>% 
+  mutate(relation = Term) %>% 
+         left_join(comparisons, by = 'relation')
+
+plotBlythe(nominal, Genealogical.distance, title = 'Genealogical distance') +
+  # scale_fill_brewer(palette = 'PuRd', name="Age\nBand") +
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 0))
+
+```
+
+### Figure 6
+
+```{r fig_6, fig.width=8, fig.height=5.5}
+
+nominal$relation.type = as.character(nominal$relation.type)
+nominal[nominal$relation.type == "same-sex parent's sibling",]$relation.type = "same-sex parents' siblings"
+nominal[nominal$relation.type == "diff-sex parent's sibling",]$relation.type = "diff-sex parents' siblings"
+
+
+d_fig6 = nominal %>%  filter(
+  relation.type %in% c(
+    'parent', 
+    "same-sex parents' siblings", 
+    "diff-sex parents' siblings", 
+    'sibling', 
+    'parallel-cousin', 
+    'cross-cousin'
+    )
+  ) %>% 
+mutate(
+  relation.type = factor(
+    relation.type,
+    levels = c(
+      'parent', 
+      "same-sex parents' siblings", 
+      "diff-sex parents' siblings", 
+      'sibling', 
+      'parallel-cousin', 
+      'cross-cousin'
+      )
+  ),
+      panel = case_when(
+        relation.type %in% c(
+                        'parent', 
+                        "same-sex parents' siblings", 
+                        "diff-sex parents' siblings"
+                        ) ~ 
+          "Sibling merger (lineal kinship terms)",
+        relation.type %in% c(
+                        'sibling', 
+                        'parallel-cousin', 
+                        'cross-cousin'  
+                        ) ~ "Sibling merger (collateral kinship terms)"
+      )
+)
+
+d_fig6a = d_fig6 %>% filter(panel == 'Sibling merger (collateral kinship terms)')
+d_fig6b = d_fig6 %>% filter(panel == 'Sibling merger (lineal kinship terms)')
+  
+fig6a = d_fig6a %>% 
+  plotBlythe(relation.type, panel, title = "Sibling mergers") +
+  guides(fill = F) +
+  xlab("") +
+  ylab("") +
+  ylim(0, 45) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+
+fig6b = d_fig6b %>% 
+  plotBlythe(relation.type, panel, title = "Sibling mergers") +
+  xlab("") +
+  ylab("") +
+  ylim(0, 45) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+
+fig6b | fig6a
+
+```
+
+## Kintax experiment
+
+### Structure
+
+The kintax experiment depicts abstract situations using simple line drawings and an accompanying sound clip describing the depicted activity. The participants have to choose the appropriate pair of referents for each situation. Since Murrinhpatha kintax marks whether referents are related to *each other* as opposed to the speaker / listener, there was no need to create individual stimulus lists. As a result, the stimuli are balanced across participants, with 3 gender, 3 number, 7 sibling/non-sibling and 7 cross-/parallel-cousin trials per participant.
+
+### Methods
+
+We grouped the data under participants (estimating a participant random intercept). This is also a small dataset so similar caveats apply as in the nominal experiment. Exploratory data analysis did not indicate that further grouping factors were relevant.
+
+### Model 3
+
+```{r eval=F}
+fit3 = brm(correct ~ Age.bands + Condition + (1|Identifier), data = kintax, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+fit3b = brm(correct ~ Age.bands * Condition + (1|Identifier), data = kintax, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+crit3 = add_criterion(fit3, c('waic', 'loo'), reloo = T)
+crit3b = add_criterion(fit3b, c('waic', 'loo'), reloo = T)
+
+save(fit3, file = 'si_models/fit3_prior.rda')
+save(fit3b, file = 'si_models/fit3b_prior.rda')
+
+```
+
+```{r results='asis'}
+
+load('si_models/fit3_prior.rda')
+
+cat('Correct ~ Age band + Condition + (1 | Identifier)')
+
+```
+
+```{r }
+
+fixef(fit3) %>% 
+  kable(digits = 2)
+```
+
+### Figure 7
+
+```{r fig_7, fig.width = 5, fig.height = 2.5}
+
+printModel(fit3, my.effects = c('Intercept', 'Age.bands.L', 'Conditiondualvpaucal', 'ConditioncrossMvparallelMcousin', 'ConditionsiblingvnonMsibling')) +
+  scale_x_discrete(labels=c("Condition 4: other siblinghood", "Condition 3: X vs ||", "Condition 2: Number", "Age band (L)", "Intercept (Condition 1: Gender)"))
+
+```
+
+### Figure 8
+
+```{r fig_8, fig.width=9, fig.height=5.5}
+
+kintax %>% 
+  mutate(
+    correct = as.logical(correct),
+    Condition3 = 
+      case_when(
+        Condition2 == 'cross- v parallel-cousin' ~ 'Cond 3-4: Siblinghood (aggregated)',
+        Condition2 == 'sibling v non-sibling' ~ 'Cond 3-4: Siblinghood (aggregated)',
+        Condition2 == 'male v female' ~ 'Cond 1: Gender',
+        Condition2 == 'dual v paucal' ~ 'Cond 2: Number'
+        )
+    ) %>% 
+  plotBlythe(`Age band`, Condition3, title = '') +
+  # scale_fill_brewer(palette = age.palette, name = 'Age\nband') +
+  xlab('Morphological distinction tested') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+
+```
+
+### Figure 9
+
+```{r fig_9}
+kintax %>% 
+  mutate(
+    correct = as.logical(correct),
+    Condition4 = 
+      case_when(
+        Condition2 == 'cross- v parallel-cousin' ~ 'Condition 3: X vs ||',
+        Condition2 == 'sibling v non-sibling' ~ 'Condition 4: Other siblinghood'
+      )
+  ) %>% 
+  filter(!is.na(Condition4)) %>% 
+  plotBlythe(`Age band`, Condition4, '') +
+  # scale_fill_brewer(palette = age.palette, name = 'Age\nband') +
+  xlab('Morphological sibling-agreement distinction tested') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+```
+
+### Model 4a
+
+```{r eval=F}
+fit4 = brm(correct ~ Age.bands + Condition + (1|Identifier), data = kintax2, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+fit4b = brm(correct ~ nominal.av + Condition + (1|Identifier), data = kintax2, family=bernoulli, prior = gelman_hill_binom_priors, save_all_pars = T)
+
+crit4 = add_criterion(fit4, c('waic', 'loo'), reloo = T)
+crit4b = add_criterion(fit4b, c('waic', 'loo'), reloo = T)
+
+save(fit4, file = 'si_models/fit4_prior.rda')
+save(fit4b, file = 'si_models/fit4b_prior.rda')
+```
+
+```{r results='asis'}
+
+load('si_models/fit4_prior.rda')
+load('si_models/fit4b_prior.rda')
+
+cat('Correct ~ Age band + Condition + (1 | Identifier) ')
+```
+
+### Model 4a
+```{r results='asis'}
+
+cat('Correct ~ Average accuracy in nominal experiment + Condition + (1 | Identifier) ')
+
+```
+
+
+```{r }
+fixef(fit4) %>% 
+  kable(digits = 2)
+
+fixef(fit4b) %>% 
+  kable(digits = 2)
+
+```
