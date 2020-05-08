@@ -1,5 +1,7 @@
 ## Data and code for the paper "Acquiring the lexicon and grammar of universal kinship" by
-Joe Blythe: Jeremiah Tunmuck: Alice Mitchell: and Péter Rácz
+Joe Blythe, Jeremiah Tunmuck, Alice Mitchell, and Péter Rácz
+
+[![DOI](https://zenodo.org/badge/251237524.svg)](https://zenodo.org/badge/latestdoi/251237524)
 
 ## Toc
 
